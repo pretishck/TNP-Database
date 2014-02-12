@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "my commit"
+git remote add origin git@github.com:josexavier06/repo_name.git
+git remote set-url origin git@github.com:josexavier06/repo_name.git
+git pull  /*optional*/
+git push origin master   
+git push -f  /* brute force*/
