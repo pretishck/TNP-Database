@@ -1,5 +1,0 @@
-1.Database naming conventions should stricly follow 'tnp_database_schema.txt' 
-2.Create a database named TNP.
-3.Import file 'tnp_create_tables.sql' provided to create all the 7 tables in one go.
-4.Please make sure to comment each and every section of your code.
-5.Use the git manual for instructions on using GIT.
