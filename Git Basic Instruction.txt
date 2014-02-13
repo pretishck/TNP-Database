@@ -27,4 +27,13 @@ git push -f  /* brute force*/
 ************To roll back to particular commit************
 	git reset --hard <old-commit-id>	
 		git push -f
+		
+************ To remove local machine branch ************
+git branch -D <branch-name>
+
+************ To remove origin branch *****************
+git push origin :<branch-name>
+
+
+		
 
