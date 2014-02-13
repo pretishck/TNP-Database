@@ -1,8 +1,18 @@
 git init						//to initialize git
-git add .						// To add all files in the branch/directory to git
-git commit -m "my commit"		//To commit to local repository 
 
-**** Origin:main branch in github **** master: main branch in local machine *****
+****** Clone *****************
+git clone [SSH-URL] [FOLDER-NAME] 	// To make a clone of the repo in your local machine
+cd [FOLDER-NAME] 
+
+
+************* To work branch ********************
+git checkout -b [branch-name]	//To make a new branch
+git checkout [branch-name] 		//To switch to an existing directory
+
+git add .						// To add all files in the directory to staging area
+git commit -m "my commit"	                	//commit files
+
+**** Origin:main branch in github server **** master: main branch in local machine *****
 
 *************To set target repository (Origin)***********
 
@@ -18,10 +28,3 @@ git push -f  /* brute force*/
 	git reset --hard <old-commit-id>	
 		git push -f
 
-****** Clone *****************
-git clone [SSH-URL] [FOLDER-NAME] 	// To make a copy of origin in ur local machine
-cd [FOLDER-NAME] // TO switch to the cloned directory
-
-************* To work branch ********************
-git checkout -b [branch-name]	//To make a new branch
-git checkout [branch-name] 		//To switch to an existing directory
