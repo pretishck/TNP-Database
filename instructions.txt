@@ -3,4 +3,4 @@
 3.Import file 'tnp_create_tables.sql' provided to create all the 7 tables in one go.
 4.Please make sure to comment each and every section of your code.
 5.Before adding any new feature ,always work on a branch other than master and push it to origin to make pull request.
-5.Use the git manual for instructions on using GIT.
+6.Use the git manual for instructions on using GIT.
