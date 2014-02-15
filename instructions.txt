@@ -2,5 +2,5 @@
 2.Create a database named TNP.
 3.Import file 'tnp_create_tables.sql' provided to create all the 7 tables in one go.
 4.Please make sure to comment each and every section of your code.
-5.Before adding any new feature ,always work on a branch other than master and push it to origin to make pull request.
-6.Use the git manual for instructions on using GIT.
+5.After adding any feature,give a pull request to merge the changes into master branch
+6.If necessary,check the git manual for instructions on updating your forked repo.
